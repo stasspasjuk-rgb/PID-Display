@@ -1,0 +1,11 @@
+[package]
+name = "pid-display"
+version = "4.0.0"
+edition = "2021"
+default-run = "PID-Display"
+
+[dependencies]
+
+[[bin]]
+name = "PID-Display"
+path = "src/main.rs"

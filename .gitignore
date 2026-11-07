@@ -1,0 +1,8 @@
+/target/
+/.voice-cache/
+/__pycache__/
+**/__pycache__/
+/routes.tsv
+/audio/
+/PID_GTFS.zip
+*.tmp

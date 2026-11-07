@@ -1,0 +1,341 @@
+# PID timetable-derived demonstration routes, simulated timings. See README.
+route	22	tram
+stop	22-0-1	Bílá Hora	P		0
+stop	22-0-2	Malý Břevnov	P		90
+stop	22-0-3	Obora Hvězda	P		180
+stop	22-0-4	Vypich	P		270
+stop	22-0-5	Říčanova	P		360
+stop	22-0-6	Břevnovský klášter	P		450
+stop	22-0-7	U Kaštanu	P		540
+stop	22-0-8	Drinopol	P		630
+stop	22-0-9	Marjánka	P		720
+stop	22-0-10	Malovanka	P		810
+stop	22-0-11	Pohořelec	P		900
+stop	22-0-12	Brusnice	P		990
+stop	22-0-13	Pražský hrad	P		1080
+stop	22-0-14	Královský letohrádek	P		1170
+stop	22-0-15	Malostranská	P	A	1260
+stop	22-0-16	Malostranské náměstí	P		1350
+stop	22-0-17	Pražské Jezulátko	P		1440
+stop	22-0-18	Újezd	P		1530
+stop	22-0-19	Národní divadlo	P		1620
+stop	22-0-20	Národní třída	P	B	1710
+stop	22-0-21	Karlovo náměstí	P	B	1800
+stop	22-0-22	Štěpánská	P		1890
+stop	22-0-23	I. P. Pavlova	P	C	1980
+stop	22-0-24	Náměstí Míru	P	A	2070
+stop	22-0-25	Jana Masaryka	P		2160
+stop	22-0-26	Krymská	P		2250
+stop	22-0-27	Ruská	P		2340
+stop	22-0-28	Vršovické náměstí	P		2430
+stop	22-0-29	Čechovo náměstí	P		2520
+stop	22-0-30	Koh-i-noor	P		2610
+stop	22-0-31	Slavia - Nádraží Eden	P	S	2700
+stop	22-0-32	Kubánské náměstí	P		2790
+stop	22-0-33	Průběžná	P		2880
+stop	22-0-34	Na Hroudě	P		2970
+stop	22-0-35	Staré Strašnice	P		3060
+stop	22-0-36	Radošovická	P		3150
+stop	22-0-37	Dubečská	P		3240
+stop	22-0-38	Nádraží Zahradní Město	P	S	3330
+stop	22-0-39	Zahradní Město	P		3420
+stop	22-0-40	Sídliště Zahradní Město	P		3510
+stop	22-0-41	Obchodní centrum Hostivař	P		3600
+stop	22-0-42	Na Groši	P		3690
+stop	22-0-43	Hostivařská	P		3780
+stop	22-0-44	Nádraží Hostivař	P	S	3870
+
+route	22	tram
+stop	22-1-1	Nádraží Hostivař	P	S	0
+stop	22-1-2	Hostivařská	P		90
+stop	22-1-3	Na Groši	P		180
+stop	22-1-4	Obchodní centrum Hostivař	P		270
+stop	22-1-5	Sídliště Zahradní Město	P		360
+stop	22-1-6	Zahradní Město	P		450
+stop	22-1-7	Nádraží Zahradní Město	P	S	540
+stop	22-1-8	Dubečská	P		630
+stop	22-1-9	Radošovická	P		720
+stop	22-1-10	Staré Strašnice	P		810
+stop	22-1-11	Na Hroudě	P		900
+stop	22-1-12	Průběžná	P		990
+stop	22-1-13	Kubánské náměstí	P		1080
+stop	22-1-14	Slavia - Nádraží Eden	P	S	1170
+stop	22-1-15	Koh-i-noor	P		1260
+stop	22-1-16	Čechovo náměstí	P		1350
+stop	22-1-17	Vršovické náměstí	P		1440
+stop	22-1-18	Ruská	P		1530
+stop	22-1-19	Krymská	P		1620
+stop	22-1-20	Jana Masaryka	P		1710
+stop	22-1-21	Náměstí Míru	P	A	1800
+stop	22-1-22	I. P. Pavlova	P	C	1890
+stop	22-1-23	Štěpánská	P		1980
+stop	22-1-24	Karlovo náměstí	P	B	2070
+stop	22-1-25	Novoměstská radnice	P		2160
+stop	22-1-26	Národní třída	P	B	2250
+stop	22-1-27	Národní divadlo	P		2340
+stop	22-1-28	Újezd	P		2430
+stop	22-1-29	Tyršův dům	P		2520
+stop	22-1-30	Malostranské náměstí	P		2610
+stop	22-1-31	Malostranská	P	A	2700
+stop	22-1-32	Královský letohrádek	P		2790
+stop	22-1-33	Pražský hrad	P		2880
+stop	22-1-34	Brusnice	P		2970
+stop	22-1-35	Pohořelec	P		3060
+stop	22-1-36	Malovanka	P		3150
+stop	22-1-37	Marjánka	P		3240
+stop	22-1-38	Drinopol	P		3330
+stop	22-1-39	U Kaštanu	P		3420
+stop	22-1-40	Břevnovský klášter	P		3510
+stop	22-1-41	Říčanova	P		3600
+stop	22-1-42	Vypich	P		3690
+stop	22-1-43	Obora Hvězda	P		3780
+stop	22-1-44	Malý Břevnov	P		3870
+stop	22-1-45	Bílá Hora	P		3960
+
+route	152	bus
+stop	152-0-1	Sídliště Čimice	P		0
+stop	152-0-2	Čimice	P		90
+stop	152-0-3	Libeňská	P		180
+stop	152-0-4	Okořská	P		270
+stop	152-0-5	Přívorská	P		360
+stop	152-0-6	Za Čimickým hájem	P		450
+stop	152-0-7	Vozovna Kobylisy	P		540
+stop	152-0-8	Mirovická	P		630
+stop	152-0-9	Sídliště Kobylisy	P		720
+stop	152-0-10	Kobylisy (ul. Horňátecká)	P		810
+stop	152-0-11	Kobylisy	P	C	900
+stop	152-0-12	Ládví	P	C	990
+stop	152-0-13	Štěpničná	P		1080
+stop	152-0-14	Třebenická	P		1170
+stop	152-0-15	Střížkov	P	C	1260
+stop	152-0-16	Sídliště Prosek	P		1350
+stop	152-0-17	Prosek (ul. Vysočanská)	P	C	1440
+stop	152-0-18	Vysočanská	P	BS	1530
+stop	152-0-19	Českomoravská	P	B	1620
+
+route	152	bus
+stop	152-1-1	Českomoravská	P	B	0
+stop	152-1-2	Vysočanská	P	BS	90
+stop	152-1-3	Prosek (ul. Vysočanská)	P	C	180
+stop	152-1-4	Sídliště Prosek	P		270
+stop	152-1-5	Střížkov	P	C	360
+stop	152-1-6	Třebenická	P		450
+stop	152-1-7	Štěpničná	P		540
+stop	152-1-8	Ládví	P	C	630
+stop	152-1-9	Kobylisy	P	C	720
+stop	152-1-10	Sídliště Kobylisy	P		810
+stop	152-1-11	Mirovická	P		900
+stop	152-1-12	Vozovna Kobylisy	P		990
+stop	152-1-13	Za Čimickým hájem	P		1080
+stop	152-1-14	Přívorská	P		1170
+stop	152-1-15	Libeňská	P		1260
+stop	152-1-16	Čimice	P		1350
+stop	152-1-17	Sídliště Čimice	P		1440
+
+# Line 59: PID GTFS 2026-11-07, representative patterns.
+route	59	trolley
+stop	U462Z11P	Nádraží Veleslavín	P	AS	0
+stop	U85Z2P	Divoká Šárka	P		240
+stop	U493Z1P	Nová Šárka	P		300
+stop	U80Z1P	Navigátorů	P		360
+stop	U218Z1P	K Letišti	P		480
+stop	U698Z1P	Terminál 3	P		540
+stop	U776Z1P	U Hangáru	P		720
+stop	U628Z1P	Terminál 1	P		840
+stop	U629Z3P	Terminál 2	P		900
+stop	U1090Z1P	Letiště	P		1020
+
+route	59	trolley
+stop	U628Z5P	Terminál 1	P		0
+stop	U629Z1P	Terminál 2	P		60
+stop	U1090Z3P	Schengenská	P		120
+stop	U776Z2P	U Hangáru	P		180
+stop	U698Z2P	Terminál 3	P		360
+stop	U218Z2P	K Letišti	P		420
+stop	U80Z2P	Navigátorů	P		540
+stop	U493Z2P	Nová Šárka	P		600
+stop	U85Z1P	Divoká Šárka	P		720
+stop	U462Z15P	Nádraží Veleslavín	P	AS	960
+
+# Additional routes: PID GTFS snapshot of 2026-11-07.
+# Source: Pražská integrovaná doprava / ROPID, https://pid.cz/en/opendata/
+# License: CC BY 4.0, https://creativecommons.org/licenses/by/4.0/
+# Modified: selected transit patterns and relative timetable seconds for simulation.
+route	17	tram
+stop	U945Z1P	Levského	P		0
+stop	U946Z1P	Sídliště Modřany	P		0
+stop	U947Z1P	Modřanská rokle	P		60
+stop	U948Z1P	U Libušského potoka	P		120
+stop	U929Z1P	Poliklinika Modřany	P		180
+stop	U1006Z1P	Čechova čtvrť	P		240
+stop	U388Z1P	Nádraží Modřany	P	S	300
+stop	U76Z1P	Modřanská škola	P		360
+stop	U19Z1P	Belárie	P		420
+stop	U2731Z1P	Hodkovičky	P		480
+stop	U71Z1P	Černý kůň	P		540
+stop	U449Z1P	Nádraží Braník	P	S	600
+stop	U387Z1P	Pobřežní cesta	P		660
+stop	U614Z1P	Přístaviště	P		720
+stop	U110Z1P	Dvorce	P		840
+stop	U303Z1P	Kublov	P		960
+stop	U583Z1P	Podolská vodárna	P		1080
+stop	U878Z1P	Výtoň	P		1200
+stop	U237Z7P	Palackého náměstí	P	B	1260
+stop	U208Z1P	Jiráskovo náměstí	P		1380
+stop	U483Z5P	Národní divadlo	P		1500
+stop	U221Z2P	Karlovy lázně	P		1560
+stop	U703Z2P	Staroměstská	P	A	1680
+stop	U593Z2P	Právnická fakulta	P		1740
+stop	U68Z2P	Čechův most	P		1800
+stop	U717Z4P	Strossmayerovo náměstí	P		1980
+stop	U841Z2P	Veletržní palác	P		2040
+stop	U532Z2P	Výstaviště	P	S	2160
+stop	U115Z2P	Nádraží Holešovice	P	CS	2220
+stop	U765Z2P	Trojská	P		2340
+stop	U447Z2P	Nad Trojou	P		2460
+stop	U139Z2P	Hercovka	P		2520
+stop	U249Z2P	Ke Stírce	P		2640
+stop	U675Z2P	Kobylisy	P	C	2700
+stop	U718Z2P	Březiněveská	P		2760
+stop	U333Z2P	Líbeznická	P		2820
+stop	U864Z2P	Vozovna Kobylisy	P		2940
+
+route	17	tram
+stop	U864Z1P	Vozovna Kobylisy	P		0
+stop	U864Z5P	Vozovna Kobylisy	P		60
+stop	U333Z1P	Líbeznická	P		120
+stop	U718Z1P	Březiněveská	P		180
+stop	U675Z1P	Kobylisy	P	C	240
+stop	U249Z1P	Ke Stírce	P		240
+stop	U139Z1P	Hercovka	P		360
+stop	U447Z1P	Nad Trojou	P		540
+stop	U765Z1P	Trojská	P		600
+stop	U115Z1P	Nádraží Holešovice	P	CS	720
+stop	U532Z1P	Výstaviště	P	S	840
+stop	U841Z1P	Veletržní palác	P		840
+stop	U717Z5P	Strossmayerovo náměstí	P		960
+stop	U439Z1P	Nábřeží Kapitána Jaroše	P		1020
+stop	U68Z1P	Čechův most	P		1140
+stop	U593Z1P	Právnická fakulta	P		1200
+stop	U703Z1P	Staroměstská	P	A	1320
+stop	U221Z1P	Karlovy lázně	P		1380
+stop	U483Z6P	Národní divadlo	P		1560
+stop	U208Z2P	Jiráskovo náměstí	P		1620
+stop	U237Z8P	Palackého náměstí	P	B	1740
+stop	U878Z2P	Výtoň	P		1800
+stop	U583Z2P	Podolská vodárna	P		1980
+stop	U303Z2P	Kublov	P		2040
+stop	U110Z2P	Dvorce	P		2160
+stop	U614Z2P	Přístaviště	P		2280
+stop	U387Z2P	Pobřežní cesta	P		2340
+stop	U449Z2P	Nádraží Braník	P	S	2400
+stop	U71Z2P	Černý kůň	P		2460
+stop	U2731Z2P	Hodkovičky	P		2520
+stop	U19Z2P	Belárie	P		2580
+stop	U76Z2P	Modřanská škola	P		2640
+stop	U388Z2P	Nádraží Modřany	P	S	2700
+stop	U1006Z2P	Čechova čtvrť	P		2760
+stop	U929Z2P	Poliklinika Modřany	P		2820
+stop	U948Z2P	U Libušského potoka	P		2880
+stop	U947Z2P	Modřanská rokle	P		2940
+stop	U946Z2P	Sídliště Modřany	P		3000
+stop	U2708Z2P	Hasičská stanice Modřany	P		3060
+stop	U509Z4P	Observatoř Libuš	P		3120
+stop	U659Z4P	Sídliště Libuš	P		3180
+stop	U533Z4P	Libuš	P		3300
+
+route	207	bus
+stop	U703Z4P	Staroměstská	P	A	0
+stop	U593Z2P	Právnická fakulta	P		0
+stop	U620Z1P	Nemocnice Na Františku	P		120
+stop	U87Z1P	Dlouhá třída	P		300
+stop	U480Z1P	Náměstí Republiky	P	B	420
+stop	U32Z2P	Bílá labuť	P		540
+stop	U689Z4P	Florenc	P	BC	660
+stop	U3018Z1P	Pernerova	P		720
+stop	U789Z1P	U Památníku	P		840
+stop	U745Z1P	Tachovské náměstí	P		900
+stop	U2787Z1P	Lukášova	P		960
+stop	U69Z1P	Černínova	P		1020
+stop	U512Z8P	Ohrada	P		1080
+stop	U512Z3P	Ohrada	P		1140
+
+route	207	bus
+stop	U512Z4P	Ohrada	P		0
+stop	U512Z5P	Ohrada	P		60
+stop	U69Z2P	Černínova	P		120
+stop	U2787Z2P	Lukášova	P		180
+stop	U745Z2P	Tachovské náměstí	P		240
+stop	U789Z2P	U Památníku	P		300
+stop	U3018Z2P	Pernerova	P		360
+stop	U689Z5P	Florenc	P	BC	420
+stop	U32Z1P	Bílá labuť	P		540
+stop	U480Z2P	Náměstí Republiky	P	B	660
+stop	U87Z2P	Dlouhá třída	P		720
+stop	U620Z2P	Nemocnice Na Františku	P		900
+stop	U593Z1P	Právnická fakulta	P		960
+stop	U703Z3P	Staroměstská	P	A	1080
+
+route	9	tram
+stop	U612Z3P	Sídliště Řepy	P	S	0
+stop	U47Z1P	Blatiny	P		60
+stop	U236Z1P	Slánská	P		120
+stop	U113Z1P	Hlušičkova	P		180
+stop	U395Z1P	Krematorium Motol	P		240
+stop	U394Z1P	Motol	P		360
+stop	U865Z1P	Vozovna Motol	P		420
+stop	U567Z1P	Hotel Golf	P		420
+stop	U580Z1P	Poštovka	P		480
+stop	U289Z1P	Kotlářka	P		600
+stop	U240Z1P	Kavalírka	P		660
+stop	U254Z1P	Klamovka	P		720
+stop	U805Z1P	U Zvonu	P		780
+stop	U25Z1P	Bertramka	P		900
+stop	U1040Z1P	Anděl	P	B	1080
+stop	U4Z1P	Arbesovo náměstí	P		1140
+stop	U481Z1P	Švandovo divadlo	P		1200
+stop	U809Z2P	Újezd	P		1260
+stop	U483Z1P	Národní divadlo	P		1440
+stop	U539Z1P	Národní třída	P	B	1560
+stop	U997Z2P	Lazarská	P		1620
+stop	U484Z2P	Vodičkova	P		1680
+stop	U1072Z2P	Václavské náměstí	P	AB	1800
+stop	U203Z2P	Jindřišská	P		1860
+stop	U142Z2P	Hlavní nádraží	P	CS	1980
+stop	U172Z2P	Viktoria Žižkov	P		2100
+stop	U339Z2P	Lipanská	P		2220
+stop	U516Z2P	Olšanské náměstí	P		2400
+stop	U586Z2P	Olšanská	P		2460
+stop	U469Z4P	Nákladové nádraží Žižkov	P		2520
+
+route	9	tram
+stop	U469Z3P	Nákladové nádraží Žižkov	P		0
+stop	U586Z1P	Olšanská	P		60
+stop	U516Z1P	Olšanské náměstí	P		120
+stop	U339Z1P	Lipanská	P		180
+stop	U172Z1P	Viktoria Žižkov	P		300
+stop	U142Z1P	Hlavní nádraží	P	CS	540
+stop	U203Z1P	Jindřišská	P		600
+stop	U1072Z1P	Václavské náměstí	P	AB	720
+stop	U484Z1P	Vodičkova	P		780
+stop	U997Z1P	Lazarská	P		840
+stop	U539Z2P	Národní třída	P	B	960
+stop	U483Z2P	Národní divadlo	P		1020
+stop	U809Z4P	Újezd	P		1140
+stop	U481Z2P	Švandovo divadlo	P		1200
+stop	U4Z2P	Arbesovo náměstí	P		1260
+stop	U1040Z2P	Anděl	P	B	1440
+stop	U25Z2P	Bertramka	P		1560
+stop	U805Z2P	U Zvonu	P		1620
+stop	U254Z2P	Klamovka	P		1680
+stop	U240Z2P	Kavalírka	P		1740
+stop	U289Z2P	Kotlářka	P		1800
+stop	U580Z2P	Poštovka	P		1860
+stop	U567Z2P	Hotel Golf	P		1920
+stop	U865Z2P	Vozovna Motol	P		2040
+stop	U394Z2P	Motol	P		2100
+stop	U395Z2P	Krematorium Motol	P		2160
+stop	U113Z2P	Hlušičkova	P		2220
+stop	U236Z2P	Slánská	P		2340
+stop	U47Z2P	Blatiny	P		2400
+stop	U612Z12P	Sídliště Řepy	P	S	2520
