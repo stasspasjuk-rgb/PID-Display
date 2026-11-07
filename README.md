@@ -1,63 +1,65 @@
 <div align="center">
 
-<img src="docs/media/avatar.png" width="104" alt="Логотип PID Display">
+<img src="docs/media/avatar.png" width="104" alt="PID Display">
 
 # PID Display
 
-**Пульт водителя и пассажирский LCD пражского транспорта в одном приложении Windows**
+**Prague public transport driver terminal and onboard passenger display for Windows**
 
-[Скачать для Windows x64](https://github.com/stasspasjuk-rgb/PID-Display/releases/latest) · [Посмотреть демонстрацию](#демонстрация) · [Собрать из исходников](#сборка-из-исходников)
+[English](README.md) · [Čeština](README.cs.md) · [Русский](README.ru.md)
 
-**Rust** · **Windows x64** · **244 линии** · **Офлайн-озвучка**
+[Download for Windows x64](https://github.com/stasspasjuk-rgb/PID-Display/releases/latest) · [Demo](#demo) · [Build from source](#build-from-source)
+
+**Rust · Windows x64 · 244 lines · Offline Czech announcements**
 
 </div>
 
-## Как начать поездку
+## Quick start
 
-1. Скачайте `PID-Display-v4-Windows.zip` со страницы релиза и распакуйте его.
-2. Запустите **`PID-Display.exe`**. Откроются терминал водителя и отдельное окно для пассажиров.
-3. Выберите **Autobus** или **Tramvaj**, введите номер на клавиатуре или экранной панели и выберите направление. Для точного поиска нажмите **Enter** или **Vyhledat**.
-4. Нажмите **Potvrdit odjezd**, чтобы отправиться, и **Potvrdit příjezd**, чтобы прибыть. Для автоматической поездки выберите **Spustit automatickou jízdu**.
+1. Download `PID-Display-v4-Windows.zip` from the latest release and extract it.
+2. Run **`PID-Display.exe`**. It opens the driver terminal and a separate passenger display.
+3. Select **Autobus** (bus or trolleybus) or **Tramvaj** (tram), then enter a line number using your keyboard or the on-screen keypad. Press **Enter** or **Vyhledat** for an exact match and select a direction.
+4. Use **Potvrdit odjezd** to depart and **Potvrdit příjezd** to arrive, or select **Spustit automatickou jízdu** to run the trip automatically.
 
-Для второго монитора перетащите туда пассажирское окно, затем нажмите **LCD ⛶** на пульте. Кнопка **Otevřít displej** возвращает пассажирское окно, если его закрыли.
+To use a second monitor, move the passenger window there, then press **LCD ⛶** on the driver terminal. If you close the passenger window, **Otevřít displej** reopens it.
 
-## Демонстрация
+## Demo
 
-### Выбор транспорта и линии
+### Select a vehicle and route
 
-![Выбор автобуса, ввод номера 170 и отправление со следующей остановкой](docs/media/route-selection.gif)
+![Selecting a bus, entering line 170 and starting the trip](docs/media/route-selection.gif)
 
-### Как меняется следующая остановка
+### Next-stop transitions
 
-![Горизонтальная анимация трамвайного LCD и прокрутка списка в автобусе](docs/media/stop-transitions.gif)
+![Horizontal tram animation and vertical bus scrolling](docs/media/stop-transitions.gif)
 
-## Скриншоты
+## Screenshots
 
-| Выбор транспорта | Поиск линии 170 |
+| Vehicle selection | Line 170 search |
 | --- | --- |
-| ![Чешское меню с автобусом и трамваем](docs/media/vehicle-selection.png) | ![Поиск 170 с экранной клавиатурой и вариантами направлений](docs/media/route-search.png) |
+| ![Vehicle selection](docs/media/vehicle-selection.png) | ![Line 170 search](docs/media/route-search.png) |
 
-| Пульт водителя | Автобусный LCD |
+| Driver terminal | Bus display |
 | --- | --- |
-| ![Пульт водителя с текущей и следующей остановкой, часами и дверями](docs/media/driver-terminal.png) | ![Вертикальный список остановок и конечная на автобусном LCD](docs/media/bus-display.png) |
+| ![Driver terminal](docs/media/driver-terminal.png) | ![Bus display](docs/media/bus-display.png) |
 
-| Трамвайный LCD | Закрытие дверей |
+| Tram display | Door closing warning |
 | --- | --- |
-| ![Широкий трамвайный экран линии 20 с горизонтальной схемой](docs/media/tram-display.png) | ![Предупреждение о закрытии дверей на пассажирском экране](docs/media/door-warning.png) |
+| ![Tram display](docs/media/tram-display.png) | ![Door closing warning](docs/media/door-warning.png) |
 
-## Что умеет приложение
+## Features
 
-| Возможность | Как это работает |
+| Feature | Details |
 | --- | --- |
-| Поиск маршрутов | Встроены 42 трамвайные, 195 автобусных и 7 троллейбусных линий, в том числе **5, 20, 120, 130 и 170**. Доступно до трёх вариантов на направление. |
-| Пульт водителя | Показывает текущую и следующую остановки, часы, направление, тарифную зону и состояние дверей. Поддерживает ручной выбор остановки. |
-| Разные LCD | В автобусе список прокручивается вверх. В трамвае широкая горизонтальная схема с наклонными названиями сдвигается влево. |
-| Двери и звук | При открытых дверях отправление заблокировано. При закрытии появляется предупреждение и звучит чешское объявление. |
-| Офлайн-режим | Маршруты и чешские объявления встроены в EXE. Для обычного запуска не нужны Python, голосовой пакет или интернет. |
+| Route search | 42 tram, 195 bus and 7 trolleybus lines, including **5, 20, 120, 130 and 170**, with up to three variants per direction. |
+| Driver terminal | Current and next stop, clock, destination, fare zone, door state and manual stop selection. |
+| Passenger displays | The bus display scrolls vertically. The tram display slides a wide horizontal route diagram with angled stop names. |
+| Doors and audio | Open doors block departure. Closing the doors displays a warning and plays a Czech announcement. |
+| Offline operation | Routes and Czech announcements are built into the executable. |
 
-## Сборка из исходников
+## Build from source
 
-Установите [Rust для Windows](https://rust-lang.org/tools/install/). Для стандартного варианта Rust MSVC понадобятся инструменты сборки Visual Studio с C++ и Windows SDK. Готовый релиз проверен на GNU x64.
+Install [Rust for Windows](https://rust-lang.org/tools/install/). The default MSVC toolchain requires Visual Studio Build Tools with C++ and the Windows SDK. The published executable was tested with the GNU x64 toolchain.
 
 ```powershell
 git clone https://github.com/stasspasjuk-rgb/PID-Display.git
@@ -67,12 +69,12 @@ cargo build --release --locked --offline
 .\target\release\PID-Display.exe
 ```
 
-В проекте нет внешних Cargo-зависимостей. Модель синтеза не нужна для сборки, поскольку в репозитории уже есть сгенерированное аудио. Исходники включают импортёр GTFS и инструмент пересборки звукового банка. Подробности и формат собственных записей описаны в [руководстве](docs/guide-ru.md).
+Cargo has no external dependencies. Python and the speech model are needed only if you choose to regenerate the audio. The [technical guide](docs/guide-ru.md) covers GTFS imports and custom recordings.
 
-## Данные и источники
+## Data and credits
 
-- **Маршруты** взяты из городского снимка GTFS PID от **7 ноября 2026 года**. Служебные рейсы исключены, время остановок отсчитывается от начала поездки. Данные принадлежат Pražská integrovaná doprava / ROPID и распространяются по CC BY 4.0. [PID Open Data](https://pid.cz/en/opendata/) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-- **Интерфейсы** воссозданы по опубликованным референсам. Для автобуса использованы панели Čitelná Praha, для трамвая — широкий LCD Bustec в Škoda 15T. [Автобусные экраны PID](https://pid.cz/nova-grafika-citelne-prahy-v-autobusech-dpp-zobrazi-prestupy-i-orientacni-jizdni-dobu/) · [Фото панели Bustec](https://www.busportal.cz/images/stories/2012/9645_aUltrawide_LCD_Praha_15T_tram.jpg)
-- **Озвучка** сгенерирована на чешском с помощью Supertonic 3. Оригинальные записи DPP в комплект не входят. [Карточка модели](https://huggingface.co/Supertone/supertonic-3) · [Лицензия модели](https://huggingface.co/Supertone/supertonic-3/blob/main/LICENSE)
+- **Routes** come from the PID urban GTFS snapshot dated **7 November 2026**. Non-passenger runs are excluded and stop times are expressed relative to departure. [PID Open Data](https://pid.cz/en/opendata/) · [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **Display designs** are based on Čitelná Praha bus displays and the Bustec widescreen LCD in the Škoda 15T tram. [PID bus displays](https://pid.cz/nova-grafika-citelne-prahy-v-autobusech-dpp-zobrazi-prestupy-i-orientacni-jizdni-dobu/) · [Bustec LCD photograph](https://www.busportal.cz/images/stories/2012/9645_aUltrawide_LCD_Praha_15T_tram.jpg)
+- **Announcements** use the Czech voice of Supertonic 3. [Model card](https://huggingface.co/Supertone/supertonic-3) · [Model license](https://huggingface.co/Supertone/supertonic-3/blob/main/LICENSE)
 
-PID Display — неофициальный симулятор. Он использует встроенный снимок расписаний и имитирует движение по выбранному маршруту.
+PID Display is an unofficial simulator. It runs simulated journeys using a bundled timetable snapshot.
